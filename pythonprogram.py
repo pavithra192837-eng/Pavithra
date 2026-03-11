@@ -1,10 +1,11 @@
-import os
+import random
 
-# Clone the GitHub repository
-os.system("git clone https://github.com/username/repository.git")
+compliments = [
+    "You are amazing, Pavithra!",
+    "Keep shining, Pavithra!",
+    "You're a star, Pavithra!",
+    "Stay awesome, Pavithra!",
+    "You make coding fun, Pavithra!"
+]
 
-# Go inside the repository folder
-os.chdir("repository")
-
-# Run the python file
-os.system("python main.py")
+print(random.choice(compliments))
